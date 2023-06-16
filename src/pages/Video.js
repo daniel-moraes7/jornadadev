@@ -1,4 +1,5 @@
 import React, { useRef, useState } from "react";
+import VideoFooter from "./components/footer/VideoFooter";
 import "./video.css";
 
 function Video() {
@@ -24,6 +25,8 @@ function Video() {
         loop
         src="https://firebasestorage.googleapis.com/v0/b/videos-6cd15.appspot.com/o/Download.mp4?alt=media&token=39e52303-a9f1-4128-b8b9-85f41deaaca1"
       ></video>
+      {/* side bar */}
+      <VideoFooter />
     </div>
   );
 }
