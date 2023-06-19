@@ -17,7 +17,7 @@ function App() {
     const videosCollection = collection(db, "videos");
     const videosSnapshot = await getDocs(videosCollection);
     const videosList = videosSnapshot.docs.map((doc) => doc.data());
-    setVideos(videosList);
+    setVideos(videosList);s
   }
 
   useEffect(() => {
@@ -25,7 +25,7 @@ function App() {
   }, []);
 
   return (
-    <div className="App" style={{ maxHeight: maxHeight + "px"}}>
+    <div className="App" style={{ maxHeight: maxHeight + "px" }}>
       <div className="app__videos">
         {video.map((item) => {
           return (

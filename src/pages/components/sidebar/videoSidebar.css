@@ -1,7 +1,6 @@
 .videoSidebar {
     position: absolute;
-    bottom: 200px;
-    top: 42%;
+    top: 50%;
     right: 10px;
     color: white;
 }
@@ -13,6 +12,6 @@
 
 @media only screen and (max-width: 440px){
     .videoSidebar{
-      top: 41%;
+      top: 46%;
     }
   }
