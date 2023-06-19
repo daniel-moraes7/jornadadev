@@ -1,3 +1,5 @@
+# This project was created using the technologies HTML, CSS, Javascript, and React, integrating with Firebase.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
