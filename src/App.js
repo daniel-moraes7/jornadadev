@@ -17,7 +17,7 @@ function App() {
     const videosCollection = collection(db, "videos");
     const videosSnapshot = await getDocs(videosCollection);
     const videosList = videosSnapshot.docs.map((doc) => doc.data());
-    setVideos(videosList);s
+    setVideos(videosList);
   }
 
   useEffect(() => {
